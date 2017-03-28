@@ -49,7 +49,7 @@ if ($_GET['action'] == 'on') {
   $hw = $devices[$_GET['dev']];
   wol($bc, $hw);
 } elseif ($_GET['action'] == 'off') {
-  $script = "/var/homecontrol-backend/shut" . $_GET['dev'] . ".sh";
+  $script = "/var/homecontrol-backend/shut_" . $_GET['dev'] . ".sh";
   shell_exec($script);
 }
 
