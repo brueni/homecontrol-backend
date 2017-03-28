@@ -48,8 +48,8 @@ $devices = array ( 'nas3270' => '00:1c:c0:e4:ee:14',
 if ($_GET['action'] == 'on') {
   $hw = $devices[$_GET['dev']];
   wol($bc, $hw);
-elseif ($_GET['action'] == 'off') {
-  
+} elseif ($_GET['action'] == 'off') {
+
 }
 
 ?>
