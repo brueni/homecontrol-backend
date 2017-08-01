@@ -1,0 +1,4 @@
+<?php
+					//define the TMDB API-Key
+					$tmdb_api="key";
+?>

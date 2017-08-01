@@ -1,0 +1,20 @@
+<?php
+
+					//defines the mysql-settings
+					$servers['host']="localhost";
+					$servers['user']="";
+					$servers['password']="";
+					$servers['db']="mmm";
+
+					$servers['host2']="";
+					$servers['user2']="";
+					$servers['password2']="";
+					$servers['db2']="mmm";
+
+					$vlchost = "htpc.home:8080";
+					$vlcauth = ":1"; #leerer User, '1' als PW
+					//
+
+					include("db.incl.php");
+
+					?>

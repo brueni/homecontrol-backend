@@ -1,2 +1,4 @@
 shut_pw
 states/
+include/config.incl.php
+tmdb/api.incl.php
