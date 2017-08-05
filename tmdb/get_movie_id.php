@@ -5,7 +5,7 @@ include_once('api.incl.php');
 $cleanup[] = "'";
 $cleanup[] = '"';
 
-$movies_result = mysql_query("SELECT * FROM video WHERE tmdb_id = 0 ORDER BY id ASC LIMIT 1", $db2);
+$movies_result = mysql_query("SELECT * FROM video WHERE tmdb_id = 0 ORDER BY id ASC LIMIT 10", $db2);
 while ($movies = mysql_fetch_assoc($movies_result)) {
   $search_query = urlencode($movies['titel']);
   $search_language = urlencode("de-de");
