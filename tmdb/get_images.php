@@ -3,7 +3,7 @@ include_once('../include/config.incl.php');
 include_once('api.incl.php');
 
 $base_url = "http://image.tmdb.org/t/p/";
-$base_folder = "cover_tmdb/"; //tbd
+$base_folder = "/mnt/nas1/_tmdb_cover/"; //tbd
 
 $poster_path = "original";
 $backdrop_path = "original";
