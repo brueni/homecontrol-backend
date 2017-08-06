@@ -1,5 +1,5 @@
 <?php
-include_once('../include/config.incl.php');
+include_once('/var/homecontrol-backend/include/config.incl.php');
 include_once('api.incl.php');
 
 $cleanup[] = "'";
